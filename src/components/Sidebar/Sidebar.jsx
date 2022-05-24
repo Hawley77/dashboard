@@ -18,7 +18,6 @@ const Sidebar = () => {
       <div className="top">
         <span className="logo">kevadmin</span>
       </div>
-      <hr />
       <div className="center">
         <ul className="menu">
           <p className="title">MAIN</p>

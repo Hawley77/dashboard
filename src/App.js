@@ -3,12 +3,16 @@ import Login from "./pages/Login/Login";
 import List from "./pages/List/List";
 import Single from "./pages/Single/Single";
 import New from "./pages/New/New";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
       <BrowserRouter>
+        <Sidebar />
+        <Navbar />
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
